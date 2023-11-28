@@ -1,7 +1,15 @@
-// TODO: Scrivi un programma che dato un numero stampi la tabellina corrispondente.
-let value = parseInt(prompt("Valore tabellina: "));
+// TODO: Lista di macchine.
+let cars = ['BMW', 'Ferrari', 'Mercedes'];
+let x = 1;
+console.log('1. ' + cars[x]);
 
+// TODO: cambia l'audi per la ferrari nella lista cars.
+cars[1] = 'Audi';
+console.log('2. ' + cars);
 
-for (let n = 0; n < 11; n++) {
-   console.log(value * n);
-}
+// TODO: Aggiungi la volvo alla lista cars.
+cars.push('Volvo');
+console.log('3. ' + cars);
+
+// TODO: Mostri quanti iten ci sono all'interno dell'array.
+console.log('4. ' + cars.length + ' Items');
